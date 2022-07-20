@@ -1,0 +1,143 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+header{
+  text-align: center;
+   font-family: 'Press Start 2P', sans-serif;
+   
+
+   margin: 0;
+   width: 100%;
+   padding: 20px;
+}
+
+
+
+input {
+  border-radius: 10px;
+  height: 20px;
+}
+button {
+  padding: 10px;
+  max-height: 50px;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: none;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.alert{
+  color: red;
+}
+.form--head{
+  font-family: 'Press Start 2P', sans-serif;
+}
+.mainForm {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.pokken{
+  width: 80%;
+  height: 100%;
+  margin: 0;
+}
+
+.refreshButton{
+  background: none;
+  border: none;
+
+  position: absolute;
+  top: 30px; right: 0px;
+  margin: 0;
+  }
+.refreshImg {
+  width: 60px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .listForms {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .listForms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  }
+}
+
+.participantForm{
+  margin: 30px;
+
+}
+
+.participant--input{
+  padding: 10px;
+
+}
+
+.buttons {
+  margin: 10px;
+
+}
+
+.activeButton {
+  background-color: green;
+
+}
+.inactiveButton {
+  background-color: red;
+}
+.tourney {
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .round {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: left;
+  
+  }
+  .roundInfo {
+    text-align: left;
+  font-family: "Press Start 2P",sans-serif;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .round {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-around;
+  
+  }
+
+  .roundInfo {
+  font-family: "Press Start 2P",sans-serif;
+  }
+}
+
+
+.restartButton {
+  background-color: green;
+}
+
